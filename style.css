@@ -1,0 +1,116 @@
+
+
+
+.col-4{
+    background-color: #f4efef;
+    text-align: center;
+    float: right;
+      
+    
+}
+
+.inputs {
+    border: none;
+    height: 40px;
+    margin: top 5px 0px;
+    width: 200px;
+}
+.row{
+    margin-top: 90px;
+    margin-left: 18%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.col-4-{
+    background-image: url('image/5604164_36fb4.gif');
+    position: center;
+    text-align: center;
+    color: #f4efef;
+    margin-left: 10px;
+    
+}
+p{
+    margin-top: 10Px;
+}
+
+.button{
+    background: none;
+    margin-top: 30px;
+    margin-left: 10px;
+    text-align: center;
+    color: #fff;
+    
+}
+i{
+    margin-right: 10px;
+}
+
+h4{
+   
+    color: #f4efef;
+    margin-top: 160px;
+    text-align: center;
+
+}
+h5{
+   
+    color: #f4efef;
+    text-align: center;
+    
+
+}
+
+button{
+    background: none;
+    border-color: #fff;
+    color: #ffffff;
+    border-radius: 7px;
+}
+
+hr{
+    width: 170px;
+    background: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Or {
+    font-size: 3.5rem;  
+    color: #fff;
+    margin-right: -1%;
+    margin-top: -1%;
+}
+
+.btn-block .text-white .bg .bg-success .text-white .font-weight-bold{
+    width: 5px;
+    
+}
+
+
+@media screen and (max-width: 425px) {
+    .container{
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+    }
+    .row{
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+    }
+}
+    @media screen and (max-width: 425px) {
+        .col-6{
+         display: grid;
+         grid-template-columns: repeat(1, 1fr);
+        }
+        .PS{
+         display: grid;
+         grid-template-columns: repeat(1, 1fr);
+        }
+    }
+    @media screen and (max-width: 425px) {
+        .button{
+         display: grid;
+         grid-template-columns: repeat(1, 1fr);
+        }
+    }
